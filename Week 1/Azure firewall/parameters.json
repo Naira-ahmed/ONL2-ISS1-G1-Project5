@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "resourceGroup": {
+            "value": "R-task12"
+        },
+        "azureFirewallName": {
+            "value": "Af-project"
+        },
+        "azureFirewallTier": {
+            "value": "Standard"
+        },
+        "vnetName": {
+            "value": "af-net-project"
+        },
+        "vnetAddressSpace": {
+            "value": "10.0.0.0/16"
+        },
+        "vnetAddressSpaceV6": {
+            "value": ""
+        },
+        "subnetAddressSpace": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetAddressSpaceV6": {
+            "value": ""
+        },
+        "zones": {
+            "value": [
+                "1"
+            ]
+        },
+        "azureFirewallManagementSubnet": {
+            "value": "AzureFirewallManagementSubnet"
+        },
+        "tunnelingSubnetAddressSpace": {
+            "value": "10.0.1.0/24"
+        },
+        "managementPublicIpAddressName": {
+            "value": "Managements"
+        },
+        "managementPublicIpZones": {
+            "value": [
+                "1"
+            ]
+        },
+        "publicIpAddressName": {
+            "value": "Management"
+        },
+        "publicIpZones": {
+            "value": [
+                "1"
+            ]
+        },
+        "publicIpV6AddressName": {
+            "value": "IpV6Conf"
+        }
+    }
+}
